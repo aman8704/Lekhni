@@ -1,0 +1,20 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:columnCount="5"
+    android:background="@drawable/popup_bg"
+    android:padding="12dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <View style="@style/ColorDot" android:background="#000000"/>
+    <View style="@style/ColorDot" android:background="#F44336"/>
+    <View style="@style/ColorDot" android:background="#2196F3"/>
+    <View style="@style/ColorDot" android:background="#4CAF50"/>
+    <View style="@style/ColorDot" android:background="#FF9800"/>
+    <View style="@style/ColorDot" android:background="#9C27B0"/>
+    <View style="@style/ColorDot" android:background="#795548"/>
+    <View style="@style/ColorDot" android:background="#607D8B"/>
+    <View style="@style/ColorDot" android:background="#E91E63"/>
+    <View style="@style/ColorDot" android:background="#009688"/>
+
+
+</GridLayout>

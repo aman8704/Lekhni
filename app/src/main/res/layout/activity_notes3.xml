@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".NotesActivity3">
+
+    <!-- ================= TOOLBAR ================= -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@color/actionBarNotes"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/backBtn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/backicon"
+                android:padding="8dp"
+                android:contentDescription="Back"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notes"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginStart="8dp"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:id="@+id/downloadBtn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/downloadicon"
+                android:padding="8dp"
+                android:contentDescription="Download"/>
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- ================= SCROLL AREA ================= -->
+    <ScrollView
+        android:id="@+id/scrollPad"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintBottom_toTopOf="@id/toolBox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:id="@+id/pageContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!-- ================= TOOLBOX ================= -->
+    <LinearLayout
+        android:id="@+id/toolBox"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#EEEEEE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+
+        <ImageView
+            android:id="@+id/btnPen"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/penicon"
+            android:padding="10dp"/>
+
+        <ImageView
+            android:id="@+id/btnErase"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/erase_icon"
+            android:padding="10dp"/>
+
+        <ImageView
+            android:id="@+id/btnColor"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/colorsicon"
+            android:padding="10dp"/>
+
+
+
+        <!-- ➕ NEW PAGE -->
+        <ImageView
+            android:id="@+id/btnNewPage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/notes_icon"
+            android:padding="10dp"/>
+
+        <ImageView
+            android:id="@+id/btnDeletePage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/pagedeleteicon"
+            android:padding="10dp"
+            android:contentDescription="Delete Page"/>
+
+
+        <!-- ↩️ UNDO -->
+        <ImageView
+            android:id="@+id/btnUndo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/undoicon"
+            android:padding="10dp"
+            android:contentDescription="Undo"/>
+
+        <!-- ↪️ REDO -->
+        <ImageView
+            android:id="@+id/btnRedo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/redoicon"
+            android:padding="10dp"
+            android:contentDescription="Redo"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
