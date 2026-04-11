@@ -4,20 +4,20 @@
 
 ###### About APP #####
 # This is how my app icon is look like.
-<img width="702" height="1600" alt="image" src="https://github.com/user-attachments/assets/58be306c-8b2f-4149-afa5-af6ec865c3e4" />
+<img width="70" height="160" alt="image" src="https://github.com/user-attachments/assets/58be306c-8b2f-4149-afa5-af6ec865c3e4" />
 
 # Splash Screen
-<img width="702" height="1600" alt="image" src="https://github.com/user-attachments/assets/d2a2dad7-ea73-427d-934a-c1788607f7ee" />
+<img width="70" height="160" alt="image" src="https://github.com/user-attachments/assets/d2a2dad7-ea73-427d-934a-c1788607f7ee" />
 
 # Home Page
-<img width="702" height="1600" alt="image" src="https://github.com/user-attachments/assets/2d3d028f-bdf3-470d-ba93-a3c442b7cfb7" />
+<img width="70" height="160" alt="image" src="https://github.com/user-attachments/assets/2d3d028f-bdf3-470d-ba93-a3c442b7cfb7" />
 
 # Writing Pad
-<img width="702" height="1600" alt="image" src="https://github.com/user-attachments/assets/4a2c1118-46e4-4655-bed7-410c8ee3199a" />
-<img width="702" height="1600" alt="image" src="https://github.com/user-attachments/assets/d34336cc-8164-41d6-94bd-26c5783e1965" />
+<img width="70" height="160" alt="image" src="https://github.com/user-attachments/assets/4a2c1118-46e4-4655-bed7-410c8ee3199a" />
+<img width="70" height="160" alt="image" src="https://github.com/user-attachments/assets/d34336cc-8164-41d6-94bd-26c5783e1965" />
 
 # After save as Pdf format
-<img width="702" height="1600" alt="image" src="https://github.com/user-attachments/assets/260b3e65-4c35-45f8-9e72-fb44099bdc3f" />
+<img width="70" height="160" alt="image" src="https://github.com/user-attachments/assets/260b3e65-4c35-45f8-9e72-fb44099bdc3f" />
 
 # Features
 🖊️ Smooth handwriting and drawing
@@ -30,7 +30,7 @@
 👆 Single-touch drawing & multi-touch scroll support
 
 #### Tech Stack ####
-Kotlin , XML , Android Canvas API
+Kotlin , XML , Android Canvas API , Open AI
 
 #### Futures Updates ####
 1.AI-Powered PDF Summarization - Automatically generate short and easy-to-understand summaries from handwritten or imported PDFs to help users revise quickly.
