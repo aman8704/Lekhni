@@ -40,7 +40,7 @@ Kotlin , XML , Android Canvas API , Open AI
 5.Cloud Sync & Backup (Firebase) - Save notes online and access from multiple devices.
 
 #### Icons Used from FLATICON ####
-I used different attractive icons from FlatIcon .this is completely free and easily downloadable.
+I used different attractive icons from FlatIcon .this is completely free and easily downloadable. Link: https://www.flaticon.com/
 
 #### How to use ? ####
 You can easily download from this google drive link.
